@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiFci</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+    <!-- wrapper -->
+    <div class="wrapper" style="background-image: url(img/dist/services-bg.jpg);">
+        <!-- header -->
+        <header class="header" id="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <div class="c-language header__language header__language--mobile">
+                            <button class="c-language__btn">
+                                <svg class="c-language__icon">
+                                    <use xlink:href="img/dist/sprite.svg#icon-language"></use>
+                                </svg>
+                                <span>EN</span>
+                            </button>
+                            <div class="c-language__dropdown">
+                                <div class="c-language__wrapper">
+                                    <ul class="c-language__list">
+                                        <li class="c-language__item">
+                                            <a href="#" class="c-language__elem">EN</a>
+                                        </li>
+                                        <li class="c-language__item">
+                                            <a href="#" class="c-language__elem">RU</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="index.html" class="logotype header__logotype header__logotype--mobile">
+                            <img src="img/dist/logotype-main.svg" alt="CiFci">
+                            <img src="img/dist/logotype-white.svg" alt="CiFci" class="logotype__white">
+                        </a>
+                        <div class="header__group">
+                            <ul class="c-contacts header__contacts">
+                                <li class="c-contacts__item">
+                                    <address class="c-contacts__link">
+                                        <svg class="c-contacts__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-location"></use>
+                                        </svg>
+                                        <span>Ул. Науйойо Уосто 8a-30, LT- 92125 Клайпеда, Литва</span>
+                                    </address>
+                                </li>
+                                <li class="c-contacts__item">
+                                    <a href="tel:+37046410954" class="c-contacts__link">
+                                        <svg class="c-contacts__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        <span>+370 46 410954</span>
+                                    </a>
+                                </li>
+                                <li class="c-contacts__item">
+                                    <a href="mailto:cifci@btr.lt" class="c-contacts__link">
+                                        <svg class="c-contacts__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-email"></use>
+                                        </svg>
+                                        <span>cifci@btr.lt</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__group">
+                            <div class="c-language header__language">
+                                <button class="c-language__btn">
+                                    <svg class="c-language__icon">
+                                        <use xlink:href="img/dist/sprite.svg#icon-language"></use>
+                                    </svg>
+                                    <span>English</span>
+                                </button>
+                                <div class="c-language__dropdown">
+                                    <div class="c-language__wrapper">
+                                        <ul class="c-language__list">
+                                            <li class="c-language__item">
+                                                <a href="#" class="c-language__elem">English</a>
+                                            </li>
+                                            <li class="c-language__item">
+                                                <a href="#" class="c-language__elem">Russian</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="header__btn btn">Заказать перевозку</a>
+                        </div>
+                        <button class="hamburger" id="hamburger-toggle">
+                            <span class="hamburger__inner"></span>
+                            <span class="hamburger__inner"></span>
+                            <span class="hamburger__inner"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a href="index.html" class="logotype header__logotype">
+                            <img src="img/dist/logotype-main.svg" alt="CiFci">
+                        </a>
+                        <div class="header__group">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item nav__item--dropdown">
+                                        <a href="services.html" class="nav__link">Услуги</a>
+                                        <ul class="dropdown-nav">
+                                            <li class="dropdown-nav__item">
+                                                <a href="#" class="dropdown-nav__link">
+                                                    <svg class="dropdown-nav__icon">
+                                                        <use xlink:href="img/dist/sprite.svg#icon-dropdown-01"></use>
+                                                    </svg>
+                                                    <span>Грузовые перевозки водным / морским траспортом</span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-nav__item">
+                                                <a href="#" class="dropdown-nav__link">
+                                                    <svg class="dropdown-nav__icon">
+                                                        <use xlink:href="img/dist/sprite.svg#icon-dropdown-02"></use>
+                                                    </svg>
+                                                    <span>Грузовые перевозки автомобильным транспортом</span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-nav__item">
+                                                <a href="#" class="dropdown-nav__link">
+                                                    <svg class="dropdown-nav__icon">
+                                                        <use xlink:href="img/dist/sprite.svg#icon-dropdown-03"></use>
+                                                    </svg>
+                                                    <span>Железнодорожная транспортировка грузов</span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-nav__item">
+                                                <a href="#" class="dropdown-nav__link">
+                                                    <svg class="dropdown-nav__icon">
+                                                        <use xlink:href="img/dist/sprite.svg#icon-dropdown-04"></use>
+                                                    </svg>
+                                                    <span>Другие логистические услуги</span>
+                                                </a>
+                                            </li>
+                                            <li class="dropdown-nav__item">
+                                                <a href="#" class="dropdown-nav__link">
+                                                    <svg class="dropdown-nav__icon">
+                                                        <use xlink:href="img/dist/sprite.svg#icon-dropdown-05"></use>
+                                                    </svg>
+                                                    <span>Грузовые авиа перевозки</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Портфолио</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+        <!-- mobile menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu__wrapper">
+                <nav class="nav mobile-menu__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item nav__item--dropdown">
+                            <a href="services.html" class="nav__link">Услуги</a>
+                            <ul class="dropdown-nav">
+                                <li class="dropdown-nav__item">
+                                    <a href="#" class="dropdown-nav__link">
+                                        <svg class="dropdown-nav__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-dropdown-01"></use>
+                                        </svg>
+                                        <span>Грузовые перевозки водным / морским траспортом</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-nav__item">
+                                    <a href="#" class="dropdown-nav__link">
+                                        <svg class="dropdown-nav__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-dropdown-02"></use>
+                                        </svg>
+                                        <span>Грузовые перевозки автомобильным транспортом</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-nav__item">
+                                    <a href="#" class="dropdown-nav__link">
+                                        <svg class="dropdown-nav__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-dropdown-03"></use>
+                                        </svg>
+                                        <span>Железнодорожная транспортировка грузов</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-nav__item">
+                                    <a href="#" class="dropdown-nav__link">
+                                        <svg class="dropdown-nav__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-dropdown-04"></use>
+                                        </svg>
+                                        <span>Другие логистические услуги</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-nav__item">
+                                    <a href="#" class="dropdown-nav__link">
+                                        <svg class="dropdown-nav__icon">
+                                            <use xlink:href="img/dist/sprite.svg#icon-dropdown-05"></use>
+                                        </svg>
+                                        <span>Грузовые авиа перевозки</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu__group">
+                    <a href="#" class="mobile-menu__btn btn btn--md">Заказать перевозку</a>
+                </div>
+                <ul class="c-contacts mobile-menu__contacts">
+                    <li class="c-contacts__item">
+                        <address class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-location"></use>
+                            </svg>
+                            <span>Ул. Науйойо Уосто 8a-30, <br>LT- 92125 Клайпеда, Литва</span>
+                        </address>
+                    </li>
+                    <li class="c-contacts__item">
+                        <a href="tel:+37046410954" class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-phone"></use>
+                            </svg>
+                            <span>+370 46 410954</span>
+                        </a>
+                    </li>
+                    <li class="c-contacts__item">
+                        <a href="mailto:cifci@btr.lt" class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-email"></use>
+                            </svg>
+                            <span>cifci@btr.lt</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of mobile menu -->
+        <!-- services -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 class="section-heading__title">Услуги</h2>
+                    <a href="#" class="section-heading__btn btn btn--md">Заказать перевозку</a>
+                </div>
+                <div class="services__wrapper">
+                    <article class="services__item" style="background-image: url(img/dist/services-bg-01.png);">
+                        <div class="services__body">
+                            <div class="services__group">
+                                <h3 class="services__title">Аренда вагонов / операции с вагонами </h3>
+                                <p class="services__description">Долгосрочная и краткосрочная аренда вагонов.</p>
+                            </div>
+                            <a href="#" class="services__btn btn btn--md">Подробнее</a>
+                        </div>
+                        <picture class="services__img">
+                            <img src="img/dist/services-01.png" alt="Image">
+                        </picture>
+                    </article>
+                    <article class="services__item" style="background-image: url(img/dist/services-bg-02.png);">
+                        <div class="services__body">
+                            <div class="services__group">
+                                <h3 class="services__title">Грузовые перевозки водным / морским траспортом</h3>
+                                <p class="services__description">Этот способ транспортировки грузов подходит для перевозки непортящихся негабаритных грузов, которые довольно дорого перевезти/транспортировать другими способами.</p>
+                            </div>
+                            <a href="#" class="services__btn btn btn--md">Подробнее</a>
+                        </div>
+                        <picture class="services__img">
+                            <img src="img/dist/services-02.png" alt="Image">
+                        </picture>
+                    </article>
+                    <article class="services__item" style="background-image: url(img/dist/services-bg-03.png);">
+                        <div class="services__body">
+                            <div class="services__group">
+                                <h3 class="services__title">Железнодорожная транспортировка грузов</h3>
+                                <p class="services__description">Оперативный анализ экспедиторских заказов, контроль движения грузов, контейнеров и вагонов, страхование грузов.</p>
+                            </div>
+                            <a href="#" class="services__btn btn btn--md">Подробнее</a>
+                        </div>
+                        <picture class="services__img">
+                            <img src="img/dist/services-06.png" alt="Image">
+                        </picture>
+                    </article>
+                    <article class="services__item" style="background-image: url(img/dist/services-bg-04.png);">
+                        <div class="services__body">
+                            <div class="services__group">
+                                <h3 class="services__title">Другие логистические услуги</h3>
+                                <p class="services__description">Подготовка/оформление документов, сопровождение грузов, погрузка, хранение.</p>
+                            </div>
+                            <a href="#" class="services__btn btn btn--md">Подробнее</a>
+                        </div>
+                        <picture class="services__img">
+                            <img src="img/dist/services-04.png" alt="Image">
+                        </picture>
+                    </article>
+                    <article class="services__item" style="background-image: url(img/dist/services-bg-05.png);">
+                        <div class="services__body">
+                            <div class="services__group">
+                                <h3 class="services__title">Грузовые авиа перевозки</h3>
+                                <p class="services__description">Оперативный анализ экспедиторских заказов, контроль движения грузов, контейнеров и вагонов, страхование грузов.</p>
+                            </div>
+                            <a href="#" class="services__btn btn btn--md">Подробнее</a>
+                        </div>
+                        <picture class="services__img">
+                            <img src="img/dist/services-05.png" alt="Image">
+                        </picture>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of services -->
+    </div>
+    <!-- end of wrapper -->
+    <!-- transport order -->
+    <section class="transport-order" id="transport-order">
+        <div class="container">
+            <h2 class="transport-order__heading">Оформить заказ на перевозку</h2>
+            <form action="#" class="transport-order__form">
+                <div class="transport-order__inner">
+                    <input type="text" class="transport-order__input input" placeholder="Ваше Имя">
+                    <input type="text" class="transport-order__input input" placeholder="Фамилия">
+                </div>
+                <div class="transport-order__inner">
+                    <input type="tel" class="transport-order__input input" placeholder="Номер мобильного">
+                    <input type="email" class="transport-order__input input" placeholder="E-mail">
+                </div>
+                <button class="transport-order__btn btn btn--lg">Оформить заказ</button>
+            </form>
+        </div>
+    </section>
+    <!-- end of transport order -->
+    <!-- footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="index.html" class="logotype footer__logotype">
+                    <img src="img/dist/logotype.svg" alt="CifCi">
+                </a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="services.html" class="footer__link">Услуги</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="portfolio.html" class="footer__link">Портфолио</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="contacts.html" class="footer__link">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="c-contacts footer__contacts">
+                    <li class="c-contacts__item">
+                        <address class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-location"></use>
+                            </svg>
+                            <span>Ул. Науйойо Уосто 8a-30, LT- 92125 Клайпеда, Литва</span>
+                        </address>
+                    </li>
+                    <li class="c-contacts__item">
+                        <a href="tel:+37046410954" class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-phone"></use>
+                            </svg>
+                            <span>+370 46 410954</span>
+                        </a>
+                    </li>
+                    <li class="c-contacts__item">
+                        <a href="mailto:cifci@btr.lt" class="c-contacts__link">
+                            <svg class="c-contacts__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-email"></use>
+                            </svg>
+                            <span>cifci@btr.lt</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="footer__btn btn">Заказать перевозку</a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <!-- scripts -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
