@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- wrapper -->
-    <div class="wrapper" style="background-image: linear-gradient(180deg, rgba(30, 43, 52, 0.85) 0%, rgba(57, 57, 58, 0.35) 100%), url(img/dist/services-bg.jpg);">
+    <div class="wrapper">
         <!-- header -->
         <header class="header" id="header">
             <div class="header__top">
@@ -261,16 +261,128 @@
         <section class="main" id="main">
             <div class="container">
                 <div class="main__wrapper">
-                    <picture class="main__logotype">
-                        <img src="img/dist/logotype.svg" alt="CiFci">
-                    </picture>
-                    <h1 class="main__heading">1001 ways to deliver your cargo</h1>
-                    <h3 class="main__title">Логистические решения по маршрутам Европа - Азия</h3>
-                    <h2 class="main__heading">We care</h2>
+                    <div class="main__body">
+                        <picture class="main__logotype">
+                            <img src="img/dist/logotype.svg" alt="CiFci">
+                        </picture>
+                        <h1 class="main__heading">1001 ways to deliver your cargo</h1>
+                        <h3 class="main__title">Логистические решения по маршрутам Европа - Азия</h3>
+                        <h2 class="main__heading">We care</h2>
+                    </div>
+                    <a href="#" class="main__btn btn modal-btn" data-id="order-modal">Заказать перевозку</a>
                 </div>
+                <a href="#cargo" class="main__scroll">
+                    <svg class="main__scroll-icon">
+                        <use xlink:href="img/dist/sprite.svg#icon-scroll"></use>
+                    </svg>
+                </a>
             </div>
         </section>
         <!-- end of main -->
+        <!-- cargo -->
+        <section class="cargo" id="cargo">
+            <div class="container">
+                <div class="section-heading section-heading--red">
+                    <h2 class="section-heading__subtitle">Перевозимые грузы</h2>
+                </div>
+                <div class="cargo__wrapper">
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Сельскохоз. продукты</h3>
+                        <p class="cargo__description">Зерно, сахар, картофель, различное сырье</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Древесина</h3>
+                        <p class="cargo__description">Сырье, щепа, бревна, пиломатериал, древесные пеллеты</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Разное сырьё</h3>
+                        <p class="cargo__description">Песок, щебень, полимеры, минералы</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Негабаритные грузы</h3>
+                        <p class="cargo__description">Техника, шины, конструкции, оборудование</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Автомобили</h3>
+                        <p class="cargo__description">и другие транспортные средства</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Нефтепродукты</h3>
+                        <p class="cargo__description">и другое минеральное сырьё</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Бытовая техника</h3>
+                        <p class="cargo__description">бытовая техника, электроприборы, мебель</p>
+                    </article>
+                    <article class="cargo__item">
+                        <h3 class="cargo__title">Металлы</h3>
+                        <p class="cargo__description">бытовая техника, электроприборы, мебель</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of cargo -->
+        <!-- faq -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="section-heading section-heading--red faq__heading">
+                    <h2 class="section-heading__subtitle">Часто задаваемые вопросы</h2>
+                </div>
+                <div class="faq__wrapper">
+                    <div class="c-accordeon">
+                        <div class="c-accordeon__item is--open">
+                            <h2 class="c-accordeon__trigger" style="pointer-events: auto;">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper" style="display: block;">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-accordeon__item">
+                            <h2 class="c-accordeon__trigger">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-accordeon__item">
+                            <h2 class="c-accordeon__trigger">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-accordeon__item">
+                            <h2 class="c-accordeon__trigger">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-accordeon__item">
+                            <h2 class="c-accordeon__trigger">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-accordeon__item">
+                            <h2 class="c-accordeon__trigger">Praesent venenatis metus at tortor pulvinar varius?</h2>
+                            <div class="c-accordeon__wrapper">
+                                <div class="content faq__content">
+                                    <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur turpis. Nullam vel sem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of faq -->
         <!-- partners -->
         <section class="partners" id="partners">
             <div class="container">
@@ -307,15 +419,14 @@
         </section>
         <!-- end of partners -->
         <!-- contacts -->
-        <section class="main-contacts main-contacts--decor" id="main-contacts">
+        <section class="main-contacts main-contacts--bg" id="main-contacts">
             <div class="container">
-                <div class="section-heading main-contacts__heading main-contacts__heading--mobile">
+                <div class="section-heading section-heading--red main-contacts__heading main-contacts__heading--mobile">
                     <h2 class="section-heading__subtitle">Контакты</h2>
-                    <a href="#" class="section-heading__btn btn btn--md modal-btn" data-id="order-modal">Заказать перевозку</a>
                 </div>
                 <div class="main-contacts__wrapper">
                     <div class="main-contacts__left">
-                        <div class="section-heading main-contacts__heading">
+                        <div class="section-heading section-heading--red main-contacts__heading">
                             <h2 class="section-heading__title">Контакты</h2>
                         </div>
                         <div class="main-contacts__content">
