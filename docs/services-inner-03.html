@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CiFci - Услуги</title>
+    <title>CiFci - Грузовые перевозки автомобильным транспортом</title>
     <meta name="description" content="Иновационная портовая логистика и торговля | Грузоперевозка водным морским, автомобильным и железнодорожным транспортом">
     <!-- styles -->
     <link rel="stylesheet" href="css/vendor.min.css">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- wrapper -->
-    <div class="wrapper wrapper--triangle" style="background-image: linear-gradient(180deg, rgba(30, 43, 52, 0.85) 0%, rgba(57, 57, 58, 0.35) 100%), url(img/dist/services-bg.jpg);">
+    <div class="wrapper wrapper--bg-top">
         <!-- header -->
         <header class="header" id="header">
             <div class="header__top">
@@ -258,12 +258,57 @@
             </div>
         </div>
         <!-- end of mobile menu -->
-        <!-- services -->
-        <section class="services services--decor" id="services">
+        <!-- inner page -->
+        <div class="inner-page" id="inner-page">
             <div class="container">
-                <div class="section-heading">
-                    <h2 class="section-heading__title">Услуги</h2>
+                <div class="section-heading inner-page__heading">
+                    <h2 class="section-heading__subtitle">Грузовые перевозки автомобильным транспортом</h2>
                     <a href="#" class="section-heading__btn btn btn--md modal-btn" data-id="order-modal">Заказать перевозку</a>
+                </div>
+                <div class="inner-page__wrapper">
+                    <div class="inner-page__body">
+                        <h3 class="inner-page__title">Грузовые перевозки автомобильным транспортом</h3>
+                        <p class="inner-page__description">Перевозка грузов наземным транспортом является одним из наиболее распространенных видов грузоперевозок.</p>
+                    </div>
+                    <picture class="inner-page__img">
+                        <img src="img/dist/services-03.png" alt="Image">
+                    </picture>
+                </div>
+                <div class="inner-page__wrap">
+                    <div class="inner-page__content content">
+                        <p>Trade Logistic company осуществляет грузоперевозки наземным транспортом по территории Европы и Азии. Перевозка грузов осуществляется по индивидуальному маршруту, подготовленному для каждого клиента и это позволяет обеспечить безопасность и оперативность предоставляемых услуг.</p>
+                        <picture class="large">
+                            <img src="img/dist/inner-content-01.png" alt="Image">
+                        </picture>
+                        <h3>Преимущества автомобильных перевозок:</h3>
+                        <ul>
+                            <li>Гибкое планирование маршрута;</li>
+                            <li>Доставка грузов «от двери до двери»;</li>
+                            <li>Заключение договора по индивидуальной перевозке груза;</li>
+                            <li>Быстрая доставка в оговоренный срок;</li>
+                            <li>Контроль движения груза в режиме реального времени;</li>
+                            <li>Доставка груза по точно указанному адресу.</li>
+                        </ul>
+                    </div>
+                    <div class="inner-page__bottom">
+                        <a href="services.html" class="back-btn">
+                            <svg class="back-btn__icon">
+                                <use xlink:href="img/dist/sprite.svg#icon-arrow-back"></use>
+                            </svg>
+                            <span>Назад к услугам</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of inner page -->
+    </div>
+    <div class="wrapper" style="background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)), url(img/dist/services-bg.jpg);">
+        <!-- services -->
+        <section class="services services--padding-top" id="services">
+            <div class="container">
+                <div class="section-heading section-heading--red">
+                    <h2 class="section-heading__subtitle">Другие услуги</h2>
                 </div>
                 <div class="services__wrapper">
                     <article class="services__item" style="background-image: url(img/dist/services-bg-03.png);">
@@ -288,18 +333,6 @@
                         </div>
                         <picture class="services__img">
                             <img src="img/dist/services-02.png" alt="Image">
-                        </picture>
-                    </article>
-                    <article class="services__item" style="background-image: url(img/dist/services-bg-01.png);">
-                        <div class="services__body">
-                            <div class="services__group">
-                                <h3 class="services__title">Грузовые перевозки автомобильным транспортом</h3>
-                                <p class="services__description">Перевозка грузов наземным транспортом является одним из наиболее распространенных видов грузоперевозок.</p>
-                            </div>
-                            <a href="services-inner-03.html" class="services__btn btn btn--md">Подробнее</a>
-                        </div>
-                        <picture class="services__img">
-                            <img src="img/dist/services-03.png" alt="Image">
                         </picture>
                     </article>
                     <article class="services__item" style="background-image: url(img/dist/services-bg-05.png);">
@@ -330,26 +363,26 @@
             </div>
         </section>
         <!-- end of services -->
+        <!-- transport order -->
+        <section class="transport-order" id="transport-order">
+            <div class="container">
+                <h2 class="transport-order__heading">Рассчитать стоимость перевозки</h2>
+                <form action="#" class="transport-order__form">
+                    <div class="transport-order__inner">
+                        <input type="text" class="transport-order__input input" placeholder="Ваше Имя">
+                        <input type="text" class="transport-order__input input" placeholder="Фамилия">
+                    </div>
+                    <div class="transport-order__inner">
+                        <input type="tel" class="transport-order__input input" placeholder="Номер мобильного">
+                        <input type="email" class="transport-order__input input" placeholder="E-mail">
+                    </div>
+                    <button class="transport-order__btn btn btn--lg">Отправить</button>
+                </form>
+            </div>
+        </section>
+        <!-- end of transport order -->
     </div>
     <!-- end of wrapper -->
-    <!-- transport order -->
-    <section class="transport-order transport-order--white" id="transport-order">
-        <div class="container">
-            <h2 class="transport-order__heading">Рассчитать стоимость перевозки</h2>
-            <form action="#" class="transport-order__form">
-                <div class="transport-order__inner">
-                    <input type="text" class="transport-order__input input" placeholder="Ваше Имя">
-                    <input type="text" class="transport-order__input input" placeholder="Фамилия">
-                </div>
-                <div class="transport-order__inner">
-                    <input type="tel" class="transport-order__input input" placeholder="Номер мобильного">
-                    <input type="email" class="transport-order__input input" placeholder="E-mail">
-                </div>
-                <button class="transport-order__btn btn btn--lg">Отправить</button>
-            </form>
-        </div>
-    </section>
-    <!-- end of transport order -->
     <!-- footer -->
     <footer class="footer" id="footer">
         <div class="container">
